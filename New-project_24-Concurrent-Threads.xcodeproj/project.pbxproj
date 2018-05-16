@@ -13,6 +13,7 @@
 		9CCBF19720AA19880011842F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCBF19620AA19880011842F /* Assets.xcassets */; };
 		9CCBF19A20AA19880011842F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCBF19820AA19880011842F /* LaunchScreen.storyboard */; };
 		9CCBF19D20AA19880011842F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCBF19C20AA19880011842F /* main.m */; };
+		9CCBF1A520AC7B9C0011842F /* ConcurrentProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCBF1A420AC7B9C0011842F /* ConcurrentProcessor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9CCBF19920AA19880011842F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CCBF19B20AA19880011842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CCBF19C20AA19880011842F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CCBF1A320AC7B9C0011842F /* ConcurrentProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcurrentProcessor.h; sourceTree = "<group>"; };
+		9CCBF1A420AC7B9C0011842F /* ConcurrentProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcurrentProcessor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				9CCBF19820AA19880011842F /* LaunchScreen.storyboard */,
 				9CCBF19B20AA19880011842F /* Info.plist */,
 				9CCBF19C20AA19880011842F /* main.m */,
+				9CCBF1A320AC7B9C0011842F /* ConcurrentProcessor.h */,
+				9CCBF1A420AC7B9C0011842F /* ConcurrentProcessor.m */,
 			);
 			path = "New-project_24-Concurrent-Threads";
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				9CCBF19220AA19880011842F /* ViewController.m in Sources */,
 				9CCBF19D20AA19880011842F /* main.m in Sources */,
 				9CCBF18F20AA19880011842F /* AppDelegate.m in Sources */,
+				9CCBF1A520AC7B9C0011842F /* ConcurrentProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
